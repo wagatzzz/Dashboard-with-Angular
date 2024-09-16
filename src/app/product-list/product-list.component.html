@@ -1,0 +1,72 @@
+<div class="product-list-container">
+    <div class="header">
+      <h2 style="font-family: arial;">My Products</h2>
+      <div class="button-group">
+        <button class="new-product-btn">+ New product</button>
+        <button class="catalogue-btn">Share storelink</button>
+        <button class="catalogue-btn">Preview catalogue</button>
+      </div>
+    </div>
+  <div class="display">
+    <!-- Filter Bar with Categories and Search -->
+    <div class="filter-bar">
+      <ul>
+        <li class="active">All</li>
+        <li>Published</li>
+        <li>Not published</li>
+      </ul>
+    </div>
+  
+    <!-- Now we place the filter-options below the filter-bar -->
+    <div class="filter-options">
+      <select>
+        <option>All categories</option>
+        <option>Cakes</option>
+        <option>Pastries</option>
+      </select>
+      <input type="text" placeholder="Search by name" />
+    </div>
+  
+    <!-- Table of Products -->
+    <table class="product-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Status</th>
+          <th>In stock</th>
+          <th>Category</th>
+          <th>Profit</th>
+          <th>Price</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="donut.jpg" alt="Crispy donut" class="product-image" />
+            crispy donut
+          </td>
+          <td ><p class="status published"> Published</p></td>
+          <td>30 in stock</td>
+          <td>Pastries</td>
+          <td>KES 15 (+37.5%)</td>
+          <td>KES 55 <span class="discount-expiring">Disc. expr.</span></td>
+          <td>...</td>
+        </tr>
+        <tr>
+          <td>
+            <img src="black forest cake.jpg" alt="Black forest" class="product-image" />
+            Black forest
+          </td>
+          <td ><p class="status published"> Published</p></td>
+          <td>20 in stock</td>
+          <td>Cakes</td>
+          <td>KES 200 (+25%)</td>
+          <td>KES 1,000 <span class="discount-expiring">Disc. expr.</span></td>
+          <td>...</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+  </div>
+  
